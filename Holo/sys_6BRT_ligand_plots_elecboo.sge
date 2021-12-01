@@ -1,0 +1,18 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+
+module load python/3.7.6
+
+python3 -m Free_Energy_Ligand_Unwind_vs_229-278 --ax_labels 229-278\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --savename 6BRT_lig_helicity_vs_229-278_round1-5.png
+python3 -m Free_Energy_Ligand_Unwind_vs_130-286 --ax_labels 130-286\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --savename 6BRT_lig_helicity_vs_130-286_round1-5.png
+python3 -m Free_Energy_Ligand_Unwind_vs_233-286 --ax_labels 233-286\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --savename 6BRT_lig_helicity_vs_233-286_round1-5.png
+python3 -m Free_Energy_Ligand_200_286 --ax_labels 233-to-286\ Distance\ \(nm\) D-to-96\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --savename 6BRT_lig_d_vs_233-286_round1-5.png
+python3 -m Free_Energy_Ligand_Bend_Vs_229-278 --ax_labels 229-278\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 6 --savename 6BRT_lig_bend_vs_229-278_round1-5.png
+python3 -m Free_Energy_Ligand_Bend_Vs_130-286 --ax_labels 130-286\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 6 --savename 6BRT_lig_bend_vs_130-286_round1-5.png
+python3 -m Free_Energy_Ligand_Bend_Vs_233-286 --ax_labels 130-286\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 6 --savename 6BRT_lig_bend_vs_233-286_round1-5.png
+python3 -m Free_Energy_Ligand_Bend_Vs_200-286 --ax_labels 130-286\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 6 --savename 6BRT_lig_bend_vs_200-286_round1-5.png
+python3 -m Free_Energy_Ligand_130-286_vs_233-286 --ax_labels 130-to-286\ Distance\ \(nm\) 233-to-286\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --savename 6BRT_lig_130_286_vs_233-286_round1-5.png
+python3 -m Free_Energy_Ligand_229-278_vs_233-286 --ax_labels 229-to-278\ Distance\ \(nm\) 233-to-286\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --savename 6BRT_lig_229_278_vs_233-286_round1-5.png
+python3 -m Free_Energy_Ligand_229-278_vs_130-286 --ax_labels 229-to-278\ Distance\ \(nm\) 130-to-286\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --savename 6BRT_lig_229_278_vs_130-286_round1-5.png

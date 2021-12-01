@@ -1,0 +1,33 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q all.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+module load python/3.7.6
+
+#python3 -m msm_scoring_lig
+#python3 -m msm_lig
+#python3 -m msm_scoring_lig
+#python3 -m msm_estimation_lig
+#python3 -m 6BRT_ligand_resid_223_to_278
+#python3 -m ftr-ABC-pocket-distance
+#python3 -m ftr-D-ring-pocket-distance
+#python3 -m Free_Energy_Lig_S97_O
+#python3 -m tpt_run_pyemma_from_jiming_lig_v2
+#python3 -m Compute_Microseconds2
+#python3 -m 6BRT_c_to_141
+python3 -m cth_prob_computation
+#python3 -m 6BRT_a_ring_to_resid_137
+#python3 -m calc_contact_probs_stolen_from_jiming_lol
+#python3 -m 6BRT_helix_n_terminus_to_resid_266
+#python3 -m 6BRT_D_Loop_TICA_Metric_Calcs
+#python3 -m Kmeans_Cluster_Ligand_Round9
+#python3 -m 6BRT_ligand_resid_130_to_286
+#python3 -m 6BRT_ligand_resid_229_to_278
+#python3 -m 6BRT_ligand_resid_233_to_286
+#python3 -m 6BRT_ligand_resid_96_to_246
+#python3 -m Ligand_Restart_Round8
+#python3 -m 6BRT_b_ring_to_resid_277_zerobased
+#python3 -m 6BRT_ligand_d_ring_to_resid_195
+#python3 -m 6BRT_helix_n_terminus_to_resid_266
+#python3 -m 6BRT_helix_c_terminus_to_resid_229
+#python3 -m 6BRT_helix_c_terminus_to_resid_238

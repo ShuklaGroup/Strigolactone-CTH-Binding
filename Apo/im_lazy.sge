@@ -1,0 +1,23 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+module load python/3.7.6
+
+#python3 -m 6BRT_c_to_141
+#python3 -m calc_contact_probs_stolen_from_jiming_lol
+#python3 -m 6BRT_8_TICA_Metric_Calcs
+#python3 -m msm_v3
+python3 -m tpt_run_pyemma_from_jiming
+#python3 -m Compute_Microseconds1
+#python3 -m msm_scoring
+#python3 -m msm_estimation
+#python3 -m 6BRT_D_Loop_TICA_Metric_Calcs
+#python3 -m Kmeans_Round10
+#python3 -m Cluster12
+#python3 -m 6BRT_resid_222_to_278
+#python3 -m 6BRT_resid_137_to_191
+#python3 -m 6BRT_resid_219_to_214
+#python3 -m 6BRT_resid_96_to_246
+#python3 -m 6BRT_terminals_distance
+#python3 -m 6BRT_helix_c_terminus_to_resid_229

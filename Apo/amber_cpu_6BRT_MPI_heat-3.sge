@@ -1,0 +1,14 @@
+### Lines starting with "#$" are options for the SGE scheduling system
+#$ -S /bin/bash    # Set shell to run job
+#$ -q all.q        # Choose queue to run job in
+#$ -pe orte 16      # Request one processor from parallel env.
+#$ -cwd            # Run job from my current working directory
+
+export LD_LIBRARY_PATH=/opt/gridengine/lib/linux-x64:/opt/openmpi/lib:/opt/python/lib
+
+export AMBERHOME="/home/mc26/amber18"
+export PATH="${AMBERHOME}/bin:$PATH"
+
+##Commands go below
+#
+mpirun -np 16 pmemd.MPI -O -i heat-3.in -o heat-3.out -p protein_helix_nohydrogen.prmtop -c heat-2.rst -r heat-3.rst -x heat-3.mdcrd -inf heat-3.mdinfo -ref heat-2.rst

@@ -1,0 +1,18 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+
+module load python/3.7.6
+
+python3 -m Free_Energy_Plot_Helicity --ax_labels C-terminus\ Distance\ \(nm\) Helical\ Content --ax_lims 0 6 0 1 --weights msm-traj-weights-10.pkl --savename 6BRT_helicity_round11.png
+#python3 -m Free_Energy_Plot_Bend_vs_Terminal --ax_labels C-terminus\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 4 --savename 6BRT_bend_vs_c_round8.png
+python3 -m Free_Energy_Plot_Binding_Pocket --ax_labels Pocket\ Width\ \(nm\) C-terminus\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights-10.pkl --savename 6BRT_pocket_round11.png
+python3 -m Free_Energy_Plot_C_Terminus_vs_Whole --ax_labels C-terminus\ Distance\ \(nm\) Helix\ Angle\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights-10.pkl --savename 6BRT_helix_angle_vs_c_round11.png
+python3 -m Free_Energy_Plot_Helix_Terminals --ax_labels N-terminus\ Distance\ \(nm\) C-terminus\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights-10.pkl --savename 6BRT_helix_terminals_round11.png
+python3 -m Free_Energy_Plot_Partial_Helicity --ax_labels C-terminus\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --weights msm-traj-weights-10.pkl --savename 6BRT_partial_helix_helicity_round11.png
+python3 -m Free_Energy_Plot_Helix_Angle_vs_Com --ax_labels CoM\ Distance\ \(nm\) Angle\ Between\ Helices\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights-10.pkl --savename 6BRT_com_vs_helix_angle11.png
+python3 -m Free_Energy_Plot_Helicity_vs_Com --ax_labels CoM\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --weights msm-traj-weights-10.pkl --savename 6BRT_com_vs_helicity11.png
+python3 -m Free_Energy_Plot_CoM_N --ax_labels N-terminus\ Distance\ \(nm\) CoM\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights-10.pkl --savename 6BRT_com_vs_n11.png
+python3 -m Free_Energy_222_vs_Helix_Bend --ax_labels C-terminus-222\ Distance\ \(nm\) Distance\ Between\ Terminals\ \(nm\) --ax_lims 0 6 0 6 --weights mam-traj-weights-10.pkl --savename 6BRT_ref_vs_term_dist_round11.png
+python3 -m Free_Energy_Unwind_vs_267-270 --ax_labels N-terminus-267\ \(nm\) Helicity --ax_lims 0 6 0 1 --weights msm-traj-weights-10.pkl --savename 6BRT_n267_helicity_round11.png

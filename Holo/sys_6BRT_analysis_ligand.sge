@@ -1,0 +1,20 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+#$ -pe orte 10
+
+module load python/3.7.6
+
+#python3 -m ftr-ABC-D-loop-distance &
+#python3 -m ftr-ABC-T1-distance-bot &
+python3 -m ftr-ABC-T1-distance-top &
+#python3 -m ftr-ABC-T2-distance-bot &
+python3 -m ftr-ABC-T2-distance-top &
+#python3 -m ftr-D-ring-D-loop-distance &
+python3 -m ftr-D-ring-T1-distance-bot &
+#python3 -m ftr-D-ring-T1-distance-top &
+python3 -m ftr-D-ring-T2-distance-bot 
+#python3 -m ftr-D-ring-T2-distance-top 
+wait
+
+

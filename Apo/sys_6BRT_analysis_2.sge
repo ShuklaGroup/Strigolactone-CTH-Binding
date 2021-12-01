@@ -1,0 +1,12 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+#$ -pe orte 4
+
+module load python/3.7.6
+
+python3 -m whole_helix_protein_angle &
+python3 -m whole_helix_protein_angle_sort &
+python3 -m distance_com_222 &
+python3 -m distance_com_222_sort &
+wait

@@ -1,0 +1,5 @@
+minimization
+&cntrl
+imin=1, ntpr=100, ntwx=100, maxcyc=10000,
+ncyc=2000, ntb=1, cut=10.0, ntx=1
+/

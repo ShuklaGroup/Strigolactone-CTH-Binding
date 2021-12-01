@@ -1,0 +1,20 @@
+import glob
+import numpy as np
+import mdtraj as md
+
+#targettopfile="./stripped.4ih4_withlig_noh.prmtop"
+#targettopfile="./stripped.ShHTL7_withGR24.prmtop"
+targettopfile="./stripped.6BRT_with_GR24.prmtop"
+
+for file in glob.glob('./lig_stripped/*.dcd'):
+    t = md.load(file, top=targettopfile)
+    d = md.compute_distances(t,[[2269,4411]]) #Use A-ring carbon
+    #d = md.compute_distances(t,[[1438,4157]]) #Ligand C4-Ser97 OG (D14)
+    n_frames = t.n_frames
+
+    dis = np.empty([n_frames, 1])
+
+    for i in range(n_frames):
+      dis[i,0:1]=d[i][0]
+
+    np.save('./lig_analysis/THelices/'+file.split('/')[-1]+'_ftr-ABC-T1-distance-top.npy',dis)

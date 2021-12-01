@@ -1,0 +1,3 @@
+parm stripped.protein_helix_nohydrogen.prmtop
+trajin stripped/6BRT_apo_helix_inactive_round7_100.strip.dcd
+trajout stripped/6BRT_apo_helix_inactive_round7_100.strip.xtc

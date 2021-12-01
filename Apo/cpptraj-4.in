@@ -1,0 +1,3 @@
+parm protein_helix_nohydrogen.prmtop
+trajin heat-3.mdcrd
+trajout heat-3.dcd

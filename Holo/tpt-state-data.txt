@@ -1,0 +1,492 @@
+ANCHORED TRIMMED
+[2, 10, 11, 12, 13, 21, 35, 37, 42, 44, 45, 46, 48, 49, 50, 61, 67, 79, 93, 94, 95, 96, 99, 100, 101, 123, 127, 136, 137, 140, 141, 143, 145, 147, 148, 159, 161, 163, 167, 175, 180, 186, 190, 194, 197, 203, 206, 208, 216, 217, 224, 237, 241, 249, 250, 257, 261, 266, 274, 275, 277, 279, 283, 286, 288, 292, 295, 296, 298, 301, 305, 307, 308, 309, 318, 320, 322, 330, 336, 341, 343, 352, 353, 354, 358, 364, 365, 369, 371, 373, 382, 383, 386, 387, 389, 392, 393, 395, 399]
+BOUND TRIMMED
+[1, 27, 30, 90, 139, 154, 164, 188, 227, 273]
+PARTIAL BOUND
+[126 174 236 362 385 394]
+UNPRODUCTIVE BINDING
+[9, 12, 28, 43, 85, 117, 121, 128, 199, 219, 260, 263, 269, 317, 366, 383, 397]
+UNPRODUCTIVE BINDING
+[9, 28, 43, 85, 117, 121, 128, 199, 219, 260, 263, 269, 317, 366, 397]
+UNBOUND AND NOT ANCHORED
+[0, 3, 4, 5, 6, 7, 8, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 29, 31, 32, 33, 34, 36, 38, 39, 40, 41, 47, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 62, 64, 65, 66, 68, 69, 70, 71, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 84, 86, 88, 89, 91, 92, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 118, 119, 120, 122, 124, 125, 129, 130, 131, 132, 133, 134, 135, 138, 142, 144, 146, 149, 150, 151, 152, 153, 155, 156, 157, 158, 160, 162, 165, 166, 168, 169, 170, 171, 172, 173, 176, 177, 178, 179, 181, 182, 183, 184, 185, 187, 189, 191, 192, 193, 195, 196, 198, 200, 201, 202, 204, 205, 207, 209, 210, 211, 212, 213, 214, 215, 218, 220, 221, 222, 223, 225, 226, 228, 229, 230, 231, 232, 233, 234, 235, 238, 239, 240, 242, 243, 244, 245, 246, 247, 248, 251, 252, 253, 254, 255, 256, 258, 259, 262, 264, 265, 267, 268, 270, 271, 272, 276, 278, 280, 281, 282, 284, 285, 287, 289, 290, 291, 293, 294, 297, 299, 300, 302, 303, 304, 306, 310, 311, 312, 313, 314, 315, 316, 319, 321, 323, 324, 325, 326, 327, 328, 329, 331, 332, 333, 334, 335, 337, 338, 339, 340, 342, 344, 345, 346, 347, 348, 349, 350, 351, 355, 356, 357, 359, 360, 361, 363, 367, 370, 374, 375, 376, 377, 378, 379, 380, 381, 384, 388, 390, 391, 396, 398]
+These are the clusters in state 0
+[  1  27  90 139 164 227 273]
+These are the clusters in state 1
+[  9  28  85 128 219 260 263 269 397]
+These are the clusters in state 2
+[275]
+These are the clusters in state 3
+[  2  12  13  35  37  42  45  46  49  61  79  94  95  99 100 101 127 140
+ 143 145 159 167 175 186 190 203 206 216 217 224 237 249 250 283 286 292
+ 295 298 308 322 352 353 358 365 369 371 373 382 386 387 389 395 399]
+These are the clusters in state 4
+[  4  15  17  24  47  53  57  60  64  65  77 108 114 115 118 120 149 152
+ 155 168 169 205 214 215 228 229 231 233 238 239 245 248 271 272 276 284
+ 287 293 297 300 303 311 323 344 350 355 376 378]
+These are the clusters in state 5
+[  5   7  16  20  23  26  29  31  34  38  41  56  62  68  71  74  78  82
+  84  89 103 106 111 112 119 131 142 144 150 153 162 165 171 177 178 187
+ 193 196 200 201 207 209 211 213 220 221 223 225 230 234 240 242 243 246
+ 251 259 267 270 280 289 290 299 304 312 314 315 321 324 327 334 337 338
+ 339 340 345 346 348 360 363 375 377 381 388 390 391 396]
+These are the clusters in state 6
+[ 30 154 188]
+These are the clusters in state 7
+[ 43 117 121 199 317 366]
+These are the clusters in state 8
+[ 11  48 123 141 147 261 307 330 336 343 354 393]
+These are the clusters in state 9
+[ 10  21  44  50  67  93  96 136 137 148 161 163 180 194 197 208 241 257
+ 266 274 277 279 288 296 301 305 309 318 320 341 364 383 392]
+These are the clusters in state 10
+[  6  19  22  25  32  58  75  76  92 102 104 109 125 129 130 132 157 160
+ 179 181 191 202 210 256 268 278 285 291 313 325 326 331 335 356 361 374
+ 380]
+These are the clusters in state 11
+[  0   3   8  14  18  33  36  39  40  51  52  54  55  59  66  69  70  73
+  80  81  83  86  88  91 105 107 110 113 122 124 133 134 135 138 146 151
+ 156 158 166 170 172 173 176 182 183 184 185 189 192 195 198 204 212 218
+ 222 226 232 235 244 247 252 253 254 255 258 262 264 265 281 282 294 302
+ 306 310 316 319 328 329 332 333 342 347 349 351 357 359 367 370 379 384
+ 398]
+MFPT: From State bound_D3D14 to State inverse_D3D14
+53149.07867697156
+TPT rate
+1.881500159349479e-05
+MFPT: From State bound_D3D14 to State lignocth_anchored_D3D14
+11404.122890618148
+TPT rate
+8.768758541024422e-05
+MFPT: From State bound_D3D14 to State ligandcth_unbound_D3D14
+17452.778349255466
+TPT rate
+5.729746748560867e-05
+MFPT: From State bound_D3D14 to State lignocth_unbound_D3D14
+2545.8861630402075
+TPT rate
+0.0003927905397018362
+MFPT: From State bound_D3D14 to State bound_D3_dissoc
+79618.81775213085
+TPT rate
+1.2559844873773408e-05
+MFPT: From State bound_D3D14 to State inverse_D3_dissoc
+54672.93333024851
+TPT rate
+1.8290586202126035e-05
+MFPT: From State bound_D3D14 to State ligandcth_anchored_D3_dissoc
+39540.14823066907
+TPT rate
+2.529074990225647e-05
+MFPT: From State bound_D3D14 to State lignocth_anchored_D3_dissoc
+17835.91384625236
+TPT rate
+5.606665341737551e-05
+MFPT: From State bound_D3D14 to State ligandcth_unbound_D3_dissoc
+10968.248329272184
+TPT rate
+9.117226105568641e-05
+MFPT: From State bound_D3D14 to State lignocth_unbound_D3_dissoc
+6199.041477184062
+TPT rate
+0.00016131526199341607
+MFPT: From State inverse_D3D14 to State bound_D3D14
+43981.28737250844
+TPT rate
+2.2736942453055024e-05
+MFPT: From State inverse_D3D14 to State lignocth_anchored_D3D14
+14049.0093399219
+TPT rate
+7.117939605594704e-05
+MFPT: From State inverse_D3D14 to State ligandcth_unbound_D3D14
+17263.04220635375
+TPT rate
+5.7927217465293856e-05
+MFPT: From State inverse_D3D14 to State lignocth_unbound_D3D14
+9844.460333291829
+TPT rate
+0.00010157997149099346
+MFPT: From State inverse_D3D14 to State bound_D3_dissoc
+81458.888703884
+TPT rate
+1.227613113696111e-05
+MFPT: From State inverse_D3D14 to State inverse_D3_dissoc
+53999.55695949167
+TPT rate
+1.851867045409577e-05
+MFPT: From State inverse_D3D14 to State ligandcth_anchored_D3_dissoc
+34241.50003963229
+TPT rate
+2.9204328047619573e-05
+MFPT: From State inverse_D3D14 to State lignocth_anchored_D3_dissoc
+22736.344476597038
+TPT rate
+4.398244410086764e-05
+MFPT: From State inverse_D3D14 to State ligandcth_unbound_D3_dissoc
+15848.462990068087
+TPT rate
+6.309760136529832e-05
+MFPT: From State inverse_D3D14 to State lignocth_unbound_D3_dissoc
+8681.919553691941
+TPT rate
+0.00011518190117008804
+MFPT: From State lignocth_anchored_D3D14 to State bound_D3D14
+33018.22877165917
+TPT rate
+3.0286300543726893e-05
+MFPT: From State lignocth_anchored_D3D14 to State inverse_D3D14
+46591.68734931
+TPT rate
+2.1463056113480928e-05
+MFPT: From State lignocth_anchored_D3D14 to State ligandcth_unbound_D3D14
+9030.93911479352
+TPT rate
+0.00011073045530358042
+MFPT: From State lignocth_anchored_D3D14 to State lignocth_unbound_D3D14
+2072.6301776609694
+TPT rate
+0.00048247874163857466
+MFPT: From State lignocth_anchored_D3D14 to State bound_D3_dissoc
+65672.83304604073
+TPT rate
+1.5226996516184068e-05
+MFPT: From State lignocth_anchored_D3D14 to State inverse_D3_dissoc
+40877.680756996495
+TPT rate
+2.4463227401394172e-05
+MFPT: From State lignocth_anchored_D3D14 to State ligandcth_anchored_D3_dissoc
+25067.140572685174
+TPT rate
+3.989286281378525e-05
+MFPT: From State lignocth_anchored_D3D14 to State lignocth_anchored_D3_dissoc
+9575.596269122387
+TPT rate
+0.00010443213893892073
+MFPT: From State lignocth_anchored_D3D14 to State ligandcth_unbound_D3_dissoc
+5331.569650954986
+TPT rate
+0.00018756202496967865
+MFPT: From State lignocth_anchored_D3D14 to State lignocth_unbound_D3_dissoc
+2589.394384649674
+TPT rate
+0.0003861906884204866
+MFPT: From State ligandcth_unbound_D3D14 to State bound_D3D14
+34511.94722424157
+TPT rate
+2.897547314564705e-05
+MFPT: From State ligandcth_unbound_D3D14 to State inverse_D3D14
+44470.91390855337
+TPT rate
+2.2486607809687124e-05
+MFPT: From State ligandcth_unbound_D3D14 to State lignocth_anchored_D3D14
+4728.276697271532
+TPT rate
+0.00021149354490549452
+MFPT: From State ligandcth_unbound_D3D14 to State lignocth_unbound_D3D14
+2547.0474391116027
+TPT rate
+0.00039261145459811107
+MFPT: From State ligandcth_unbound_D3D14 to State bound_D3_dissoc
+71080.61247368397
+TPT rate
+1.4068533812510801e-05
+MFPT: From State ligandcth_unbound_D3D14 to State inverse_D3_dissoc
+43343.076752615416
+TPT rate
+2.307173544018556e-05
+MFPT: From State ligandcth_unbound_D3D14 to State ligandcth_anchored_D3_dissoc
+25716.240739362052
+TPT rate
+3.8885932439937455e-05
+MFPT: From State ligandcth_unbound_D3D14 to State lignocth_anchored_D3_dissoc
+9644.528564901088
+TPT rate
+0.00010368573158041714
+MFPT: From State ligandcth_unbound_D3D14 to State ligandcth_unbound_D3_dissoc
+5891.121057989809
+TPT rate
+0.00016974697857273773
+MFPT: From State ligandcth_unbound_D3D14 to State lignocth_unbound_D3_dissoc
+2261.97836946394
+TPT rate
+0.0004420908765086853
+MFPT: From State lignocth_unbound_D3D14 to State bound_D3D14
+13534.901116959689
+TPT rate
+7.388306655206857e-05
+MFPT: From State lignocth_unbound_D3D14 to State inverse_D3D14
+43401.924382667305
+TPT rate
+2.3040453026533387e-05
+MFPT: From State lignocth_unbound_D3D14 to State lignocth_anchored_D3D14
+4857.450918415295
+TPT rate
+0.0002058692958088071
+MFPT: From State lignocth_unbound_D3D14 to State ligandcth_unbound_D3D14
+8806.960358052836
+TPT rate
+0.00011354655401459008
+MFPT: From State lignocth_unbound_D3D14 to State bound_D3_dissoc
+64770.863248183
+TPT rate
+1.5439040794751995e-05
+MFPT: From State lignocth_unbound_D3D14 to State inverse_D3_dissoc
+41259.08342326646
+TPT rate
+2.4237087134031895e-05
+MFPT: From State lignocth_unbound_D3D14 to State ligandcth_anchored_D3_dissoc
+22352.10702638068
+TPT rate
+4.473851162307731e-05
+MFPT: From State lignocth_unbound_D3D14 to State lignocth_anchored_D3_dissoc
+9573.980426026774
+TPT rate
+0.0001044497644137134
+MFPT: From State lignocth_unbound_D3D14 to State ligandcth_unbound_D3_dissoc
+6096.085741290329
+TPT rate
+0.00016403968750418771
+MFPT: From State lignocth_unbound_D3D14 to State lignocth_unbound_D3_dissoc
+2871.0583344194333
+TPT rate
+0.00034830361613053516
+MFPT: From State bound_D3_dissoc to State bound_D3D14
+34276.83038217072
+TPT rate
+2.9174226112813374e-05
+MFPT: From State bound_D3_dissoc to State inverse_D3D14
+51592.24586441952
+TPT rate
+1.938275768470951e-05
+MFPT: From State bound_D3_dissoc to State lignocth_anchored_D3D14
+3233.5574086666575
+TPT rate
+0.00030925691850089816
+MFPT: From State bound_D3_dissoc to State ligandcth_unbound_D3D14
+9879.096820411487
+TPT rate
+0.00010122382826878173
+MFPT: From State bound_D3_dissoc to State lignocth_unbound_D3D14
+1900.0454739216116
+TPT rate
+0.0005263031931209748
+MFPT: From State bound_D3_dissoc to State inverse_D3_dissoc
+44463.39787676921
+TPT rate
+2.249040891502514e-05
+MFPT: From State bound_D3_dissoc to State ligandcth_anchored_D3_dissoc
+28027.965833685514
+TPT rate
+3.5678650599685914e-05
+MFPT: From State bound_D3_dissoc to State lignocth_anchored_D3_dissoc
+11195.540312989677
+TPT rate
+8.932128079961852e-05
+MFPT: From State bound_D3_dissoc to State ligandcth_unbound_D3_dissoc
+4819.619829839637
+TPT rate
+0.00020748524475078215
+MFPT: From State bound_D3_dissoc to State lignocth_unbound_D3_dissoc
+1394.536280377277
+TPT rate
+0.0007170842480551746
+MFPT: From State inverse_D3_dissoc to State bound_D3D14
+34112.50098590747
+TPT rate
+2.9314766466789377e-05
+MFPT: From State inverse_D3_dissoc to State inverse_D3D14
+48005.4665758082
+TPT rate
+2.0830960957765973e-05
+MFPT: From State inverse_D3_dissoc to State lignocth_anchored_D3D14
+3131.42538641073
+TPT rate
+0.0003193433905018601
+MFPT: From State inverse_D3_dissoc to State ligandcth_unbound_D3D14
+8311.763649601204
+TPT rate
+0.00012031140948623818
+MFPT: From State inverse_D3_dissoc to State lignocth_unbound_D3D14
+1696.9818584361562
+TPT rate
+0.0005892814911536793
+MFPT: From State inverse_D3_dissoc to State bound_D3_dissoc
+69091.89078011824
+TPT rate
+1.4473478561796118e-05
+MFPT: From State inverse_D3_dissoc to State ligandcth_anchored_D3_dissoc
+26475.233034062374
+TPT rate
+3.777115006743944e-05
+MFPT: From State inverse_D3_dissoc to State lignocth_anchored_D3_dissoc
+11382.756610871233
+TPT rate
+8.785218152208741e-05
+MFPT: From State inverse_D3_dissoc to State ligandcth_unbound_D3_dissoc
+4581.308679513573
+TPT rate
+0.00021827824099077657
+MFPT: From State inverse_D3_dissoc to State lignocth_unbound_D3_dissoc
+2170.234159201637
+TPT rate
+0.0004607797715099414
+MFPT: From State ligandcth_anchored_D3_dissoc to State bound_D3D14
+36970.55059178887
+TPT rate
+2.7048555782723432e-05
+MFPT: From State ligandcth_anchored_D3_dissoc to State inverse_D3D14
+45103.780776566105
+TPT rate
+2.217109037829385e-05
+MFPT: From State ligandcth_anchored_D3_dissoc to State lignocth_anchored_D3D14
+4784.043912064705
+TPT rate
+0.0002090281816766223
+MFPT: From State ligandcth_anchored_D3_dissoc to State ligandcth_unbound_D3D14
+8851.336085875813
+TPT rate
+0.00011297729408283484
+MFPT: From State ligandcth_anchored_D3_dissoc to State lignocth_unbound_D3D14
+2084.129614359953
+TPT rate
+0.00047981660694702296
+MFPT: From State ligandcth_anchored_D3_dissoc to State bound_D3_dissoc
+68541.13274014808
+TPT rate
+1.4589779305095265e-05
+MFPT: From State ligandcth_anchored_D3_dissoc to State inverse_D3_dissoc
+43267.01652007424
+TPT rate
+2.311229385405019e-05
+MFPT: From State ligandcth_anchored_D3_dissoc to State lignocth_anchored_D3_dissoc
+11612.212908411268
+TPT rate
+8.611623020412013e-05
+MFPT: From State ligandcth_anchored_D3_dissoc to State ligandcth_unbound_D3_dissoc
+6144.711792627064
+TPT rate
+0.00016274156278572464
+MFPT: From State ligandcth_anchored_D3_dissoc to State lignocth_unbound_D3_dissoc
+2371.198185437464
+TPT rate
+0.000421727718139051
+MFPT: From State lignocth_anchored_D3_dissoc to State bound_D3D14
+33592.58516521043
+TPT rate
+2.9768474057055672e-05
+MFPT: From State lignocth_anchored_D3_dissoc to State inverse_D3D14
+51047.92126054053
+TPT rate
+1.9589436265115635e-05
+MFPT: From State lignocth_anchored_D3_dissoc to State lignocth_anchored_D3D14
+5029.737357293926
+TPT rate
+0.0001988175383650678
+MFPT: From State lignocth_anchored_D3_dissoc to State ligandcth_unbound_D3D14
+9875.1488972915
+TPT rate
+0.00010126429590082175
+MFPT: From State lignocth_anchored_D3_dissoc to State lignocth_unbound_D3D14
+2326.1409100720825
+TPT rate
+0.0004298965706118861
+MFPT: From State lignocth_anchored_D3_dissoc to State bound_D3_dissoc
+73606.68496679276
+TPT rate
+1.3585722552933124e-05
+MFPT: From State lignocth_anchored_D3_dissoc to State inverse_D3_dissoc
+49585.74273832159
+TPT rate
+2.0167087246777594e-05
+MFPT: From State lignocth_anchored_D3_dissoc to State ligandcth_anchored_D3_dissoc
+29925.211270332165
+TPT rate
+3.3416639600850513e-05
+MFPT: From State lignocth_anchored_D3_dissoc to State ligandcth_unbound_D3_dissoc
+5873.357471034357
+TPT rate
+0.00017026036724849476
+MFPT: From State lignocth_anchored_D3_dissoc to State lignocth_unbound_D3_dissoc
+2769.6343500854964
+TPT rate
+0.0003610584913380825
+MFPT: From State ligandcth_unbound_D3_dissoc to State bound_D3D14
+31501.600377293365
+TPT rate
+3.1744418950879996e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State inverse_D3D14
+48461.13988930668
+TPT rate
+2.0635090348352655e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State lignocth_anchored_D3D14
+5221.517766322455
+TPT rate
+0.0001915151962997735
+MFPT: From State ligandcth_unbound_D3_dissoc to State ligandcth_unbound_D3D14
+9537.67664761366
+TPT rate
+0.00010484733724435935
+MFPT: From State ligandcth_unbound_D3_dissoc to State lignocth_unbound_D3D14
+2236.7948798912767
+TPT rate
+0.00044706826226667985
+MFPT: From State ligandcth_unbound_D3_dissoc to State bound_D3_dissoc
+68960.24984962
+TPT rate
+1.4501107553709224e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State inverse_D3_dissoc
+43048.428897354424
+TPT rate
+2.3229651478905793e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State ligandcth_anchored_D3_dissoc
+27323.659058913072
+TPT rate
+3.6598319348220554e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State lignocth_anchored_D3_dissoc
+10979.001441408807
+TPT rate
+9.108296463359255e-05
+MFPT: From State ligandcth_unbound_D3_dissoc to State lignocth_unbound_D3_dissoc
+2891.25758724914
+TPT rate
+0.00034587025535536616
+MFPT: From State lignocth_unbound_D3_dissoc to State bound_D3D14
+34020.34720894491
+TPT rate
+2.9394173841267316e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State inverse_D3D14
+39150.357008459396
+TPT rate
+2.554255124120389e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State lignocth_anchored_D3D14
+4880.650941242376
+TPT rate
+0.00020489070249827144
+MFPT: From State lignocth_unbound_D3_dissoc to State ligandcth_unbound_D3D14
+8269.591513510772
+TPT rate
+0.00012092495722022189
+MFPT: From State lignocth_unbound_D3_dissoc to State lignocth_unbound_D3D14
+2748.82086184597
+TPT rate
+0.00036379234961439076
+MFPT: From State lignocth_unbound_D3_dissoc to State bound_D3_dissoc
+63718.230049612845
+TPT rate
+1.5694095696339514e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State inverse_D3_dissoc
+43396.62874162862
+TPT rate
+2.3043264626699923e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State ligandcth_anchored_D3_dissoc
+24219.82596446038
+TPT rate
+4.128848826029457e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State lignocth_anchored_D3_dissoc
+10045.420862713967
+TPT rate
+9.954784509942677e-05
+MFPT: From State lignocth_unbound_D3_dissoc to State ligandcth_unbound_D3_dissoc
+6002.410859952036
+TPT rate
+0.00016659972523240283

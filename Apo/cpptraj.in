@@ -1,0 +1,6 @@
+parm protein_helix_nohydrogen.prmtop
+trajin stripped/6BRT_apo_helix_inactive_round5_16.strip.dcd
+center
+autoimage
+strip :WAT,NA,CL,Na,Cl,NA+,CL-,Na+,Cl- outprefix stripped
+trajout stripped/6BRT_apo_helix_inactive_round5_16.strip.xtc

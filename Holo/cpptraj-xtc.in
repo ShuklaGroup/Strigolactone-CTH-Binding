@@ -1,0 +1,3 @@
+parm stripped.6BRT_with_GR24.prmtop
+trajin stripped/6BRT_apo_helix_GR24_round6_100.strip.dcd
+trajout stripped/6BRT_apo_helix_GR24_round6_100.strip.xtc

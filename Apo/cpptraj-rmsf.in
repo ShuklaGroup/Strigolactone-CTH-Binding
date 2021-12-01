@@ -1,0 +1,4 @@
+parm stripped.6BRT_with_GR24.prmtop
+trajin lig_stripped/*
+rms first
+atomicfluct out 6BRT_apo_helix_GR24_round2.dat byres

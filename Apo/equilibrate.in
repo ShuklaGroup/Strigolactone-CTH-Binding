@@ -1,0 +1,11 @@
+stage 4 equilibration and production
+&cntrl
+imin=0, irest=1, ntx=5,
+nstlim=2500000, dt=0.002,
+ntc=2, ntf=2,
+ntt=1, tautp=1.0,
+temp0=300.0,
+ntpr=3500, ntwx=3500,
+ntb=2, ntp=1, pres0=1.0,
+cut=10, iwrap=1,
+/

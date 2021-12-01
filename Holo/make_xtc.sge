@@ -1,0 +1,23 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+ROUND=7
+NTRAJ=100
+NAME=6BRT_apo_helix_inactive
+#mkdir stripped
+
+for j in $(seq 2 $ROUND) #seq is for multiple rounds
+do
+    for i in $(seq 1 $NTRAJ)
+    do
+        trajin_name="stripped\/$NAME\_round$j\_$i.strip.dcd"
+        trajout_name="stripped\/$NAME\_round$j\_$i.strip.xtc"
+
+        sed -i "2s/.*/trajin ${trajin_name}/" cpptraj-xtc.in
+        sed -i "3s/.*/trajout ${trajout_name}/" cpptraj-xtc.in
+
+        cpptraj -i cpptraj-xtc.in
+
+    done
+done

@@ -1,0 +1,28 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+
+
+module load python/3.7.6
+
+python3 -m Free_Energy_Ligand_Unwind_Vs_Terminal --ax_labels C-terminus\ Distance\ \(nm\) Relative\ Helicity --weights msm-traj-weights.pkl --ax_lims 0 6 0 1 --savename 6BRT_lig_helicity_round8.png
+python3 -m Free_Energy_Ligand_Bend_Vs_Terminal --ax_labels C-terminus\ Distance\ \(nm\) Helix\ Angles\ \(Rad\) --ax_lims 0 6 0 4 --weights msm-traj-weights.pkl --savename 6BRT_lig_bend_vs_c_round8.png
+python3 -m Free_Energy_Ligand_Binding_Pocket --ax_labels Pocket\ Width\ \(nm\) C-terminus\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_pocket_round8.png
+python3 -m Free_Energy_Ligand_C_Terminus_vs_Whole --ax_labels C-terminus\ Distance\ \(nm\) Helix\ Angle\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_helix_angle_vs_c_round8.png
+python3 -m Free_Energy_Ligand_Helix_Terminals --ax_labels N-terminus\ Distance\ \(nm\) C-terminus\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_helix_terminals_round8.png
+python3 -m Free_Energy_Ligand_Partial_Helicity --ax_labels C-terminus\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --weights msm-traj-weights.pkl --savename 6BRT_lig_partial_helix_helicity_round8.png
+python3 -m Free_Energy_Ligand_Helix_Angle_vs_Com --ax_labels CoM\ Distance\ \(nm\) Angle\ Between\ Helices\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_com_vs_helix_angle_round8.png
+python3 -m Free_Energy_Ligand_Helicity_vs_Com --ax_labels CoM\ Distance\ \(nm\) Relative\ Helicity --ax_lims 0 6 0 1 --weights msm-traj-weights.pkl --savename 6BRT_lig_com_vs_helicity_round8.png
+python3 -m Free_Energy_Ligand_A_Ring_vs_Whole --ax_labels A-Ring\ Distance\ \(nm\) Helix\ Angle\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_a_ring_vs_helix_angle_round8.png
+python3 -m Free_Energy_Ligand_D_Ring_vs_Whole --ax_labels D-Ring\ Distance\ \(nm\) Helix\ Angle\ \(rad\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_ring_vs_helix_angle_round8.png
+python3 -m Free_Energy_Ligand_CoM_N --ax_labels N-Terminus\ Distance\ \(nm\) CoM\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_n_vs_com_distance_round8.png
+python3 -m Free_Energy_Plot_GR24_Rings --ax_labels A-Ring\ Distance\ \(nm\) D-Ring\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_GR24_ring_distances_round8.png
+python3 -m Free_Energy_Plot_Ring_and_Helix --ax_labels N-Terminus\ Distance\ \(nm\) D-Ring\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_n_vs_d-ring_round8.png
+python3 -m Free_Energy_Ring_Distance_From_Helix --ax_labels A-Ring\ Distance\ \(nm\) D-Ring\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRt_lig_GR24_ring_distance_from_resid_222_round8.png
+#python3 -m Free_Energy_Ligand_D_96_vs_B_282 --ax_labels D-to-96\ Distance\ \(nm\) B-to-282\ Distance\ \(nm\) --ax_lims 0 6 0 6 --savename 6BRT_lig_d_96_vs_b_282_round1-4.png
+python3 -m Free_Energy_Ligand_229_278 --ax_labels 229-to-278\ Distance\ \(nm\) D-to-96\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_vs_229-278_round8.png
+python3 -m Free_Energy_Ligand_130_286 --ax_labels 130-to-286\ Distance\ \(nm\) D-to-96\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_vs_130-286_round8.png
+python3 -m Free_Energy_Ligand_233_286 --ax_labels 233-to-286\ Distance\ \(nm\) D-to-96\ Distance\ \(nm\)  --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_vs_233-286_round8.png
+python3 -m Free_Energy_Ligand_D_96_vs_195 --ax_labels D-ring\ S97\ Distance\ \(nm\) D-ring\ 195\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_96_vs_195_r8.png
+python3 -m Free_Energy_Ligand_D_96_vs_284 --ax_labels D-ring\ S97\ Distance\ \(nm\) D-ring\ S284\ Distance\ \(nm\) --ax_lims 0 6 0 6 --weights msm-traj-weights.pkl --savename 6BRT_lig_d_96_vs_284_r8.png
+#python3 -m Free_Energy_Unwind_vs_267-270 --ax_labels N-267\ \(nm\) Helicity --ax_lims 0 6 0 1 --savename 6BRT_n_to_267_r8.png

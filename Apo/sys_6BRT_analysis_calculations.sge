@@ -1,0 +1,39 @@
+#$ -S /bin/bash    # Set shell to run job
+#$ -q analysis.q        # Choose queue to run job in
+#$ -cwd            # Run job from my current working directory
+#$ -pe orte 10
+
+module load python/3.7.6
+
+python3 -m 6BRT_2_pocket_sides &
+python3 -m 6BRT_c_terminus_resid_222_displacement &
+python3 -m 6BRT_helix_c_terminus_to_resid_222 &
+python3 -m 6BRT_helix_ends_displacement &
+python3 -m 6BRT_helix_n_terminus_to_resid_222 &
+python3 -m 6BRT_helix_middle_resid_222_displacement &
+python3 -m 6BRT_protein_223_to_233_displacement &
+python3 -m ftr-alpha-helical-content &
+python3 -m ftr-alpha-helical-partial-helix &
+python3 -m 6BRT_helix_center_of_mass &
+wait
+
+            #python3 -m angle_between_2_vectors
+            #python3 -m angle_between_2_vectors_sort
+python3 -m whole_helix_protein_angle
+python3 -m whole_helix_protein_angle_sort
+python3 -m 6BRT_223_coordinates
+python3 -m distance_com_222
+python3 -m distance_com_222_sort
+python3 -m 6BRT_resid_233_to_286
+
+python3 -m 6BRT_helix_n_terminus_to_resid_266 &
+python3 -m 6BRT_terminals_distance &
+python3 -m 6BRT_resid_229_to_278 &
+python3 -m 6BRT_8_TICA_Metric_Calcs &
+python3 -m 6BRT_D_Loop_TICA_Metric_Calcs &
+python3 -m 6BRT_resid_130_to_286 &
+python3 -m 6BRT_resid_137_to_191 &
+python3 -m 6BRT_resid_216_to_166 &
+python3 -m 6BRT_resid_219_to_214 &
+python3 -m 6BRT_resid_246_to_172 &
+wait

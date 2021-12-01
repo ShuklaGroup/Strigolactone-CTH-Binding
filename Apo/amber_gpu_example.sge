@@ -1,0 +1,19 @@
+### Use this script for GPU jobs
+### Lines starting with "#$" are options for the SGE scheduling system
+#$ -S /bin/bash    # Set shell to run job
+#$ -q all.q        # Choose queue to run job in
+#$ -pe cuda 1      # Request one processor from the CUDA parallel env.
+#$ -l slots_gpu=1  # Request one GPU per CPU requested
+#$ -cwd            # Run job from my current working directory
+
+module load cuda
+nvidia-sm
+
+export PATH="/home/mc26/amber18/bin:$PATH"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
+export CUDA_HOME="/usr/local/cuda/"
+export CUDA_VISIBLE_DEVICES=`cat $TMPDIR/cuda_device`
+
+## From here on down, actual commands you want to execute
+mpirun -np 1 /home/mc26/amber18/bin/pmemd.cuda.MPI -O -i equilibrate.in -o equilibrate.out -p protein_helix_nohydrogen.prmtop -c heat-3.rst -r equilibrate.rst -x equilibrate.mdcrd -inf equilibrate.mdinfo -ref heat-3.rst
+
